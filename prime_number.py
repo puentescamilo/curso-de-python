@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 
 def is_prime(number):
     if number < 2:
@@ -7,11 +8,10 @@ def is_prime(number):
     elif number > 2 and number % 2 == 0:
         return False
     else:
-        if i in range(3, number):
+        for i in range(3, number):
             if number % i == 0:
                 return False
-            else:
-                return True
+    return True
 
 def run():
     number = int(input('Escribe un número: '))
