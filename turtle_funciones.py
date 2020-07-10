@@ -4,6 +4,7 @@ def main():
     window = turtle.Screen()
     dave = turtle.Turtle()
     make_square(dave)
+    turtle.mainloop() #Evita que la ventana se cierre
 
 def make_square(dave):
     length = int(input('Tamaño de cuadrado: ')) # Esta funcion sirve para que el programa se espere a dar un enter para ejecutarse
