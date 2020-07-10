@@ -6,7 +6,7 @@ def foreign_exchange_calculator(ammount):
 
 
 def run():
-    print('CALCULADORA DE DIVISAS')
+    print('**C A L C U L A D O R A * D E * D I V I S A S**')
     print('Convierte pesos mexicanos a pesos colombianos')
     print('')
 
