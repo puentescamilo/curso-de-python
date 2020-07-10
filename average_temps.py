@@ -6,7 +6,7 @@ def average_temps(temps):
     for temp in temps:
         sum_of_temps +=temp
     
-    return sum_of_temps / len(temps)
+    return sum_of_temps // len(temps)
 
 
 if __name__ == '__main__':
