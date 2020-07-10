@@ -15,8 +15,12 @@ def is_prime(number):
 
 def run():
     number = int(input('Escribe un número: '))
-    is_prime(number)
+    result = is_prime(number)
 
+    if result is True:
+        print('Tu número es primo')
+    else:
+        print('Tu número no es primo')
 
 if __name__ == '__main__':
     run()
