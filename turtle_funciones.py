@@ -6,8 +6,8 @@ def run():
     make_square(dave)
 
 def make_square(dave):
-    raw_input() # Esta funcion sirve para que el programa se espere a dar un enter para ejecutarse
-    make_line_and_turn(dave, 100) # Al Colocar el 100 vamos a "Hardcodear" un valor 
+    length = int(raw_input('Tamaño de cuadrado')) # Esta funcion sirve para que el programa se espere a dar un enter para ejecutarse
+    make_line_and_turn(dave, length) # Al Colocar el 100 vamos a "Hardcodear" un valor 
 
 
 def make_line_and_turn(dave, length):
